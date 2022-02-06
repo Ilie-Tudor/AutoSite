@@ -3,5 +3,8 @@ module.exports = {
       title: `Autosite`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-styled-components"]
+  plugins: [
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-antd"
+  ]
 };
